@@ -3,29 +3,81 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 5vmin;
   pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 10s linear;
   }
 }
 
+@font-face {
+  font-family: "custom";
+  src: local("customFont"), 
+    url("./assets/Handmade.otf") format("opentype");
+}
+
 .App-header {
-  background-color: #282c34;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "custom";
+  font-size: calc(30px + 2vmin);
+  color: white;
+  background-color: #b3b1a5;
+}
+
+.imageCard {
+  height: 30vmin;
+}
+
+.customArrow {
+  transform: rotate(150deg);
+  height: 7vh;
+  width: 7vh;
+  margin-top: 1vh;
+  margin-right: 2vh;
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+}
+
+.image-instructions {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: "custom";
+  font-size: calc(15px + 2vmin);
+  color: white;
+  background-color: #b3b1a5;
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #b3b1a5;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.App-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 @keyframes App-logo-spin {
