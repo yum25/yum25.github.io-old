@@ -20,7 +20,6 @@
 }
 
 .App-header {
-  
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -37,10 +36,10 @@
 
 .customArrow {
   transform: rotate(150deg);
-  height: 7vh;
-  width: 7vh;
-  margin-top: 1vh;
-  margin-right: 2vh;
+  height: 7vmin;
+  width: 7vmin;
+  margin-top: 1vmin;
+  margin-right: 2vmin;
   filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
 }
 
@@ -61,16 +60,39 @@
   background-color: #b3b1a5;
 }
 
+.socials img {
+  height: 7vmin;
+  margin-top: 3vmin;
+  margin-left: 3vmin;
+  margin-right: 3vmin;
+  margin-bottom: 3vmin;
+}
+
+.scroll-down {
+  background-color: #b3b1a5;
+}
+
+.scroll-down img {
+  height: 18vh;
+  opacity: 0.9;
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+}
+
+.scroll-down img:hover {
+  transform: scale(1.1);
+  opacity: 1; 
+}
+
 .App-link {
   color: #61dafb;
 }
 
 .App-body {
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 10vmin;
 }
 
 .App-footer {

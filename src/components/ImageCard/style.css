@@ -13,9 +13,10 @@
   background-color: white;
   color: black;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: calc(5px + 2vmin);
+  font-size: calc(0.01rem + 2.45vmin);
   border-radius: 5vb;
   transform: rotateY(180deg);
+  overflow: hidden;
 }
 
 .card .front,

@@ -1,0 +1,49 @@
+.project {
+    font-size: calc(0.5rem + 1.5vmin);
+    font-weight: 600;
+    color: rgb(118, 115, 83);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.project-card {
+    height: 53vmin;
+    width: 70vmin;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10vmin;
+    margin-left: 1vmin;
+    margin-right: 1vmin;
+    border-radius: 5vb;
+    box-shadow: 0 0 5px 5px rgba(28, 28, 28, 0.5);
+    overflow: hidden;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+    transition: all 200ms;
+    box-shadow: 0 0 5px 2px rgba(28, 28, 28, 0.5);
+}
+
+
+.img-shadow {
+    position: absolute;
+    height: 53vmin;
+    width: 70vmin;
+    border-radius: 5vb;
+    background-image: linear-gradient(to bottom, transparent, black);
+}
+
+.img-desc {
+    font-size: calc(0.2rem + 1.7vmin);
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    bottom: 0.5vmin;
+    margin-left: 3vmin;
+    margin-right: 3vmin;
+    align-items: flex-end;
+}
+
